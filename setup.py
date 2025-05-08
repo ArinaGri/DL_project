@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="bayesnf",
+    name="bayes",
     version="0.1.0",
     author="Алина Чеснокова, Арина Гришаева",
     author_email="grishaevaarina2004@gmail.com",
     description="Байесовская нейронная модель для пространственно-временных данных",
-    py_modules=["bayesnf"],  
+    py_modules=["bayes"],  
     packages=[],
     install_requires=[
         "torch>=1.10.0",
